@@ -13,7 +13,6 @@ Create Branch and commit
 
 Git Branch
 -------------------------------------
-
     git branch
     git branch –a  local branches
     git branch –r  remote branches
@@ -23,6 +22,10 @@ Git Branch
 
 
 Import git diff (make sure branch are same)
--------------------------------------
+-------------------------------------------
     git diff >> sat.diff
     patch < sat.diff
+
+if the commit only exists in your local repository (Index/Unstage)and has not been pushed to GitHub, you can amend the commit message with the
+-------------------------------------
+    git commit --amend
