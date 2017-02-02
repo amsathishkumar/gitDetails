@@ -16,3 +16,8 @@ git branch –r  remote branches
 git remote 
 git ls-remote
 Switch to branch: git checkout branchname
+
+
+Import git diff (make sure branch are same)
+git diff >> sat.diff
+patch < sat.diff
