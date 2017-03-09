@@ -55,3 +55,13 @@ Git TAG Add
 ----------------------------------
     #git tag -a  staging-sat <commit id>
     #git push origin staging-sat
+
+GIT to create branch and push
+----------------------------------
+	git checkout -b sat-1705
+	git commit -m "sat-1705changes"
+	git push origin sat-1705
+
+Delete local changes
+----------------------------------
+	git clean -f -d
